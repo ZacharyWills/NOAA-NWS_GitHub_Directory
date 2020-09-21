@@ -1,5 +1,5 @@
 # NWS GitHub Directory
-A list of all National Weather Service associated GitHub repos, orgs etc.
+A list of all NOAA & National Weather Service associated GitHub repos, orgs etc.
 
 ---
 
@@ -13,6 +13,5 @@ A list of all National Weather Service associated GitHub repos, orgs etc.
 - [Office for Coastal Management (OCM)](https://github.com/noaa-ocm)
 #### NWS
 - [Weather.gov API](https://github.com/weather-gov)
-
 
 ---
