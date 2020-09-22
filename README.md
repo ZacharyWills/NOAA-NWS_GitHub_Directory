@@ -6,7 +6,7 @@ A list of all NOAA & National Weather Service associated GitHub repos, orgs etc.
 ### Organizations
 #### NOAA
 - [Space Weather Prediction Center (SWPC)](https://github.com/NOAA-SWPC)
-- [Office of Water Prediction](https://github.com/NOAA_OWP)
+- [Office of Water Prediction](https://github.com/NOAA-OWP)
 - [NOAA Environmental Modeling Center (EMC)](https://github.com/NOAA-EMC)
 - [Meteorological Development Laboratory (MDL)](https://github.com/NOAA-MDL)
 - [COASTAL ACT](https://github.com/CWWED)
