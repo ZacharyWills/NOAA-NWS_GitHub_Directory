@@ -11,6 +11,7 @@ A list of all NOAA & National Weather Service associated GitHub repos, orgs etc.
 - [Meteorological Development Laboratory (MDL)](https://github.com/NOAA-MDL)
 - [COASTAL ACT](https://github.com/CWWED)
 - [Office for Coastal Management (OCM)](https://github.com/noaa-ocm)
+- [Ecosystem Dynamics and Assessment Branch (EDAB)](https://github.com/NOAA-EDAB)
 #### NWS
 - [Weather.gov API](https://github.com/weather-gov)
 
