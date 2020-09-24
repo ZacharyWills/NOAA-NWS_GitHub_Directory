@@ -1,0 +1,20 @@
+# This is a basic workflow that is manually triggered
+
+name: Print Repos
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  logRepos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: octokit/request-action@v2.x
+        id: get_repos
+        with:
+          route: GET /orgs/noaa-owp/repos
+          repository: ${{ github.repository }}
+      - run: "echo repos: ${{ steps.get_repos.outputs.data }}"
