@@ -20,5 +20,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: "echo repos: ${{ steps.get_repos.outputs.data }}"
-      - run: "${{ steps.get_repos.outputs.data }} | grep full_name
+      - run: "${{ steps.get_repos.outputs.data }} | grep full_name"
 #      - run: "echo repos: ${{ steps.get_repos.outputs.data.*.full_name }}"
