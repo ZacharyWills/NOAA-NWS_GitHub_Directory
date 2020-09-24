@@ -19,4 +19,5 @@ jobs:
           repository: ${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: "echo repos: ${{ steps.get_repos.outputs.data }}"
       - run: "echo repos: ${{ steps.get_repos.outputs.data.*.full_name }}"
