@@ -17,4 +17,6 @@ jobs:
         with:
           route: GET /orgs/noaa-owp/repos
           repository: ${{ github.repository }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: "echo repos: ${{ steps.get_repos.outputs.data }}"
