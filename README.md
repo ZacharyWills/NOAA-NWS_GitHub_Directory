@@ -1,4 +1,4 @@
-# NWS GitHub Directory
+# NOAA/NWS GitHub Directory
 A list of all NOAA & National Weather Service associated GitHub repos, orgs etc.
 
 ---
